@@ -1,0 +1,128 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+/* header */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+body{
+  background-color:  rgb(225, 232, 242);
+
+}
+/* 1st step */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 145px;
+}
+.nav_title{
+  font-size: 30px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+
+.btn_nav{
+  background-color: #4e47ff;
+  color: white;
+  padding: 13px 32px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 25px;
+  border: none;
+}
+.btn_nav a {
+  text-decoration: none;
+  color: white;
+}
+.btn_nav:hover {
+  background-color: #5f3939;
+}
+
+/* baneer sept */
+.header_bg {
+  background-image: url("../Assets/Hero-bg.png");
+  height: 700px;
+}
+.banner {
+  text-align: center;
+  margin: 200px 267px;
+  line-height: 55px;
+}
+.banner_title {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* Action style */
+.action_containar {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 150px;
+}
+.action_contant {
+  max-width: 520px;
+  line-height: 23px;
+}
+.action_contant button {
+  margin-left: 0px;
+}
+.action_title {
+  font-size: 42px;
+  font-weight: bold;
+}
+.action_subtitle {
+  font-size: 24px;
+  color: #242330;
+}
+.action_img {
+  border-radius: 47px;
+}
+/* productive section */
+
+.productive_container {
+  border-radius: 10px;
+  width: 1140px;
+  height: 306px;
+  margin: 116px auto;
+}
+.Productive_bg {
+  background-color: #dad9fc;
+}
+.Productive_title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  padding: 45px 142px;
+  margin-bottom: -87px;
+}
+.productive_items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item_title {
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: -14px;
+  color: #4e47ff;
+}
+.item_description {
+  font-size: 20px;
+  color: #242330;
+  letter-spacing: 1.5px;
+}
+.productive_item {
+  align-items: center;
+}
