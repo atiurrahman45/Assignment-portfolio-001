@@ -126,3 +126,54 @@ nav{
 .productive_item {
   align-items: center;
 }
+
+.ready_bg {
+  background-color: #fbf4f4a6;
+}
+.ready_container {
+  border-radius: 10px;
+  width: 1140px;
+  height: 715px;
+  margin: 116px auto;
+}
+.ready_group {
+  padding: 71px 150px;
+}
+
+.ready_section {
+  text-align: center;
+  line-height: 10px;
+}
+.ready_title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 71px;
+}
+.ready_subtitle {
+  font-size: 20px;
+  color: rgb(165, 162, 162);
+}
+.ready_img {
+  text-align: center;
+}
+.ready_image_raduis {
+  border-radius: 48px;
+  height: 365px;
+  width: 840px;
+}
+/* login section */
+
+.login_group {
+  margin: 100px 150px;
+  display: flex;
+  gap: 110px;
+  height: 635px;
+  width: 1405px;
+  align-items: center;
+  margin: 0px auto;
+}
+.login_title {
+  font-size: 97px;
+  font-weight: bold;
+  margin-bottom: -63px;
+}
